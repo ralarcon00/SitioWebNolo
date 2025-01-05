@@ -1,9 +1,12 @@
-header {
-  background-color: blue;
-}
-
-body {
-  background-color: green;
+@import url(./base/__body.scss);
+@import url(./componentes/__main.scss);
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /*# sourceMappingURL=style.css.map */
