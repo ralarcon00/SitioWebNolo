@@ -1,11 +1,12 @@
-*{
-margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    text-align: center
-}
+@use 'base/footer';
+@use 'componentes/main';
+@use 'componentes/infoline';
+@use 'componentes/dropdownitem';
+@use 'componentes/containerSM';
 
-@import './base/_body';
-@import './componentes/main'
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
