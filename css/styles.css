@@ -1,13 +1,60 @@
-.navbar{
+.navbar {
     background-color: #141414;
-    text-align: center;
+  }
+  
+  .navbar-brand {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: white !important; /* Asegura que el color blanco prevalezca */
+  }
+  
+  .navbar-toggler{
+    background-color: #8B52C5;
+  }
+
+  .video-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .video-controls button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .video-controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  .video-controls input[type="range"] {
+    width: 100px;
+  }
+
+html{
+  scroll-behavior: smooth;
 }
 
-.navlink{
-    color: #371F59
-    ;
-}
+.navbar .navbar-toggler-icon {
+  background-image: url( "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28139, 82, 197, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
 
-main{
-    width: 30%;
-}
+  .navbar .navbar-toggler{
+    margin-right: 10px;
+    border: 1px solid #8B52C5;
+  }
+
+  #EnlaceCorreo{
+    color: #141414;
+    text-decoration: none;
+  }
