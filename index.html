@@ -2533,6 +2533,47 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 5%, rgba(143,68,254,0.8631827731
     });
   });
 </script>
+<style>
+  /* Aseguramos que los carruseles se alineen bien en pantallas grandes */
+  .row {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten a la siguiente línea si es necesario */
+  }
+
+  .col-lg-4, .col-md-6, .col-12 {
+    flex: 1 0 33%; /* Asegura que los 3 carruseles se dividan igualmente en pantallas grandes */
+    max-width: 33%;
+    box-sizing: border-box; /* Asegura que el tamaño de los carruseles sea preciso */
+  }
+
+  /* Para pantallas medianas a grandes (más de 768px), mantenemos las 3 columnas */
+  @media (max-width: 992px) {
+    .col-lg-4 {
+      flex: 1 0 33%; /* 3 carruseles por fila */
+      max-width: 33%;
+    }
+  }
+
+  /* Para pantallas pequeñas (menos de 768px), seguimos manteniendo 3 carruseles por fila */
+  @media (max-width: 768px) {
+    .col-lg-4, .col-md-6, .col-12 {
+      flex: 1 0 33%; /* 3 carruseles por fila */
+      max-width: 33%;
+    }
+  }
+
+  /* Ajustes para la imagen dentro del carrusel */
+  .carousel-item img {
+    width: 100%; /* Las imágenes ocupan todo el ancho disponible */
+    height: auto;
+    object-fit: contain; /* Ajusta la imagen sin deformarla */
+  }
+  
+  /* Asegura que los controles de navegación del carrusel no interfieran */
+  .carousel-control-prev, .carousel-control-next {
+    z-index: 1; /* Asegura que los botones de navegación estén por encima del carrusel */
+  }
+</style>
 <script>
   document.getElementById('imageModal').addEventListener('hidden.bs.modal', function () {
     // Eliminar la clase modal-open del body
