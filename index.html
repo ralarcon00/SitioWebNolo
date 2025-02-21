@@ -1779,7 +1779,7 @@
 <body>
   <main id="GALERIAS">
     <div style="padding-top: 120px;">
-      <img src="/SitioWebNolo/img/Header.gif" alt="Header" style="display: block; margin: 0 auto; margin-bottom: 20px;" class="container-fluid">
+      <img src="img/Header.gif" alt="Header" style="display: block; margin: 0 auto; margin-bottom: 20px;" class="container-fluid">
     </div>
     <div>
       <h3 style="text-align: center; font-weight: bolder; margin-top: 100px; font-size: xxx-large; font-family: 'Poppins', sans-serif;">DESARROLLO DE MARCA</h3>
@@ -1798,13 +1798,20 @@
         <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="img/Cultiva Sin Limites/csl1.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/GORF/G1.jpg">
+              <img src="img/GORF/G1.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(0, 'carousel1')"></a>
             </div>
             <div class="carousel-item">
-              <img src="img/Cultiva Sin Limites/csl2.jpg" width="500px" height="600px" class="d-block w-100" alt="..."style= "margin-bottom: 20px">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/GORF/G2.jpg">
+              <img src="img/GORF/G2.jpg" width="500px" height="600px" class="d-block w-100" alt="..."style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(1, 'carousel1')"></a>
             </div>
             <div class="carousel-item">
-              <img src="img/Cultiva Sin Limites/csl3.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px"style= "margin-bottom: 20px">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/GORF/G3.jpg">
+              <img src="img/GORF/G3.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(2, 'carousel1')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/GORF/G4.jpg">
+              <img src="img/GORF/G4.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(3, 'carousel1')"></a>
             </div>
           </div>
           <button class="carousel-control-prev position-absolute top-50 start-0 translate-middle-y" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
@@ -1821,14 +1828,25 @@
       <div class="col-lg-4 col-md-6 col-sm-12" id="GALERIA2">
         <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/Mock Up/MU1.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
+            <div class="carousel-item active"> 
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/CONINMO/C1I1.jpg">
+              <img src="img/CONINMO/CI1.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(0, 'carousel2')"></a>
             </div>
             <div class="carousel-item">
-              <img src="img/Mock Up/MU2.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/CONINMO/C1I2.jpg">
+              <img src="img/CONINMO/CI2.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(1, 'carousel2')"></a>
             </div>
             <div class="carousel-item">
-              <img src="img/Mock Up/MU3.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/CONINMO/C1I3.jpg">
+              <img src="img/CONINMO/CI3.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px"style="cursor: pointer;" onclick="openModal(2, 'carousel2')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/CONINMO/C1I4.jpg">
+              <img src="img/CONINMO/CI4.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px"style="cursor: pointer;" onclick="openModal(3, 'carousel2')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/CONINMO/C1I5.jpg">
+              <img src="img/CONINMO/CI5.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(4, 'carousel2')"></a>
             </div>
           </div>
           <button class="carousel-control-prev position-absolute top-50 start-0 translate-middle-y" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
@@ -1846,86 +1864,30 @@
         <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="img/Post/P1.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/CLEANSOLUTION/CS1">
+              <img src="img/CLEANSOLUTION/CS1.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(0, 'carousel3')"></a>
             </div>
             <div class="carousel-item">
-              <img src="img/Post/P2.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/CLEANSOLUTION/CS2">
+              <img src="img/CLEANSOLUTION/CS2.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(1, 'carousel3')"></a>
             </div>
             <div class="carousel-item">
-              <img src="img/Post/P3.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/CLEANSOLUTION/CS3">
+              <img src="img/CLEANSOLUTION/CS3.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(2, 'carousel3')"></a>
             </div>
             <div class="carousel-item">
-              <img src="img/Post/P4.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/CLEANSOLUTION/CS4">
+              <img src="img/CLEANSOLUTION/CS4.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(3, 'carousel3')"></a>
             </div>
             <div class="carousel-item">
-              <img src="img/Post/P5.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/CLEANSOLUTION/CS5">
+              <img src="img/CLEANSOLUTION/CS5.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(4, 'carousel3')"></a>
             </div>
             <div class="carousel-item">
-              <img src="img/Post/P6.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/CLEANSOLUTION/CS6">
+              <img src="img/CLEANSOLUTION/CS6.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(5, 'carousel3')"></a>
             </div>
-            <div class="carousel-item">
-              <img src="img/Post/P7.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Post/P8.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Post/P9.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Post/P10.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Post/P11.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Post/P12.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Post/P13.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Post/P14.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Post/P15.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Post/P16.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Post/P17.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Post/P18.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Post/P19.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Post/P20.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Post/P21.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Post/P22.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Post/P23.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Post/P24.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Post/P25.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Post/P26.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Post/P27.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
+            
           </div>
           <button class="carousel-control-prev position-absolute top-50 start-0 translate-middle-y" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -1938,6 +1900,468 @@
         </div>
       </div>
     </div>
+    <div class="row container-fluid d-flex g-1" id="GALERIA4">
+      <div class="col-lg-4 col-md-6 col-sm-12"> 
+        <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/LEIKA/LE1">
+              <img src="img/LEIKA/LE1.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(0, 'carousel4')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/LEIKA/LE2">
+              <img src="img/LEIKA/LE2.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(1, 'carousel4')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/LEIKA/LE3">
+              <img src="img/LEIKA/LE3.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(2, 'carousel4')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/LEIKA/LE4">
+              <img src="img/LEIKA/LE4.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(3, 'carousel4')"></a>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12" id="GALERIA5">
+        <div id="carousel5" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/OSOTECH/O1.jpg">
+              <img src="img/OSOTECH/O1.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(0, 'carousel5')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/OSOTECH/O2.jpg">
+              <img src="img/OSOTECH/O2.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(1, 'carousel5')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/OSOTECH/O3.jpg">
+              <img src="img/OSOTECH/O3.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(2, 'carousel5')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/OSOTECH/O4.jpg">
+              <img src="img/OSOTECH/O4.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(3, 'carousel5')"></a>
+            </div>
+            <div class="carousel-item"><a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/OSOTECH/O5.jpg">
+              <img src="img/OSOTECH/O5.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(4, 'carousel5')"></a>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12" id="GALERIA6">
+        <div id="carousel6" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/LORENZA/LO1.jpg">
+              <img src="img/LORENZA/LO1.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(0, 'carousel6')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/LORENZA/LO2.jpg">
+              <img src="img/LORENZA/LO2.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(1, 'carousel6')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/LORENZA/LO3.jpg">
+              <img src="img/LORENZA/LO3.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(2, 'carousel6')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/LORENZA/LO4.jpg">
+              <img src="img/LORENZA/LO4.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(3, 'carousel6')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/LORENZA/LO5.jpg">
+              <img src="img/LORENZA/LO5.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(4, 'carousel6')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/LORENZA/LO6.jpg">
+              <img src="img/LORENZA/LO6.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(5, 'carousel6')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/LORENZA/LO7.jpg">
+              <img src="img/LORENZA/LO7.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(6, 'carousel6')"></a>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel6" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="row container-fluid d-flex g-1" id="GALERIA7">
+      <div class="col-lg-4 col-md-6 col-sm-12"> 
+        <div id="carousel7" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/GRUPO3CM/G3CM1.jpg">
+              <img src="img/GRUPO3CM/G3CM1.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(0, 'carousel7')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/GRUPO3CM/G3CM2.jpg">
+              <img src="img/GRUPO3CM/G3CM2.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(1, 'carousel7')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/GRUPO3CM/G3CM3.jpg">
+              <img src="img/GRUPO3CM/G3CM3.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(2, 'carousel7')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/GRUPO3CM/G3CM4.jpg">
+              <img src="img/GRUPO3CM/G3CM4.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(3, 'carousel7')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/GRUPO3CM/G3CM5.jpg">
+              <img src="img/GRUPO3CM/G3CM5.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(4, 'carousel7')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/GRUPO3CM/G3CM6.jpg">
+              <img src="img/GRUPO3CM/G3CM6.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(5, 'carousel7')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/GRUPO3CM/G3CM7.jpg">
+              <img src="img/GRUPO3CM/G3CM7.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(6, 'carousel7')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/GRUPO3CM/G3CM8.jpg">
+              <img src="img/GRUPO3CM/G3CM8.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(7, 'carousel7')"></a>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel7" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel7" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        </div>
+      <div class="col-lg-4 col-md-6 col-sm-12" id="GALERIA8">
+        <div id="carousel8" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/LABEYES/L1.jpg">
+              <img src="img/LABEYES/L1.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(0, 'carousel8')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/LABEYES/L2.jpg">
+              <img src="img/LABEYES/L2.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(1, 'carousel8')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/LABEYES/L3.jpg">
+              <img src="img/LABEYES/L3.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(2, 'carousel8')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/LABEYES/L4.jpg">
+              <img src="img/LABEYES/L4.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(3, 'carousel8')"></a>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel8" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel8" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12" id="GALERIA9">
+        <div id="carousel9" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/IFAJ/I1.jpg">
+              <img src="img/IFAJ/I1.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(0, 'carousel9')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/IFAJ/I2.jpg">
+              <img src="img/IFAJ/I2.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(1, 'carousel9')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/IFAJ/I3.jpg">
+              <img src="img/IFAJ/I3.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(2, 'carousel9')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/IFAJ/I4.jpg">
+              <img src="img/IFAJ/I4.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(3, 'carousel9')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/IFAJ/I5.jpg">
+              <img src="img/IFAJ/I5.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(4, 'carousel9')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/IFAJ/I6.jpg"></a>
+              <img src="img/IFAJ/I6.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(5, 'carousel9')">
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/IFAJ/I7.jpg">
+              <img src="img/IFAJ/I7.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(6, 'carousel9')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/IFAJ/I8.jpg">
+              <img src="img/IFAJ/I8.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(7, 'carousel9')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/IFAJ/I9.jpg">
+              <img src="img/IFAJ/I9.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(8, 'carousel9')"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/IFAJ/I10.jpg">
+              <img src="img/IFAJ/I10.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px"style="cursor: pointer;" onclick="openModal(9, 'carousel9')"></a>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel9" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel9" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      </div>
+      <div class="row container-fluid d-flex g-1" id="GALERIA10">
+        <div class="col-lg-4 col-md-6 col-sm-12"> 
+          <div id="carousel10" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/PRODUCTOS/P1.jpg">
+                <img src="img/PRODUCTOS/P1.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(0, 'carousel10')"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/PRODUCTOS/P2.jpg">
+                <img src="img/PRODUCTOS/P2.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(1, 'carousel10')"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/PRODUCTOS/P3.jpg">
+                <img src="img/PRODUCTOS/P3.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(2, 'carousel10')"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/PRODUCTOS/P4.jpg">
+                <img src="img/PRODUCTOS/P4.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(3, 'carousel10')"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/PRODUCTOS/P5.jpg">
+                <img src="img/PRODUCTOS/P5.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(4, 'carousel10')"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/PRODUCTOS/P6.jpg">
+                <img src="img/PRODUCTOS/P6.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(5, 'carousel10')"></a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel10" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel10" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12" id="GALERIA11">
+          <div id="carousel11" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/RONY/RY1.jpg">
+                <img src="img/RONY/RY1.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(0, 'carousel11')"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/RONY/RY2.jpg">
+                <img src="img/RONY/RY2.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(1, 'carousel11')"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/RONY/RY3.jpg">
+                <img src="img/RONY/RY3.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(2, 'carousel11')"></a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel11" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel11" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12" id="GALERIA12">
+          <div id="carousel12" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/RESTAURANTES/R1.jpg">
+                <img src="img/RESTAURANTES/R1.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(0, 'carousel12')"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/RESTAURANTES/R2.jpg">
+                <img src="img/RESTAURANTES/R2.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(1, 'carousel12')"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/RESTAURANTES/R3.jpg">
+                <img src="img/RESTAURANTES/R3.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(2, 'carousel12')"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/RESTAURANTES/R4.jpg">
+                <img src="img/RESTAURANTES/R4.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(3, 'carousel12')"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/RESTAURANTES/R5.jpg">
+                <img src="img/RESTAURANTES/R5.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(4, 'carousel12')"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/RESTAURANTES/R6.jpg">
+                <img src="img/RESTAURANTES/R6.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(5, 'carousel12')"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/RESTAURANTES/R7.jpg">
+                <img src="img/RESTAURANTES/R7.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(6, 'carousel12')"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/RESTAURANTES/R8.jpg">
+                <img src="img/RESTAURANTES/R8.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(7, 'carousel12')"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/RESTAURANTES/R9.jpg">
+                <img src="img/RESTAURANTES/R9.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(8, 'carousel13')"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/RESTAURANTES/R10.jpg">
+                <img src="img/RESTAURANTES/R10.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(9, 'carousel12')"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/RESTAURANTES/R11.jpg">
+                <img src="img/RESTAURANTES/R11.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(10, 'carousel12')"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/RESTAURANTES/R12.jpg">
+                <img src="img/RESTAURANTES/R12.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(11, 'carousel12')"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/RESTAURANTES/R13.jpg">
+                <img src="img/RESTAURANTES/R13.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(12, 'carousel12')"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/RESTAURANTES/R14.jpg">
+                <img src="img/RESTAURANTES/R14.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(13, 'carousel12')"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/RESTAURANTES/R15.jpg">
+                <img src="img/RESTAURANTES/R15.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(14, 'carousel12')"></a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel12" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel12" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+        <div class="row container-fluid d-flex g-1" id="GALERIA13">
+          <div class="col-lg-4 col-md-6 col-sm-12"> 
+            <div id="carousel13" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/ALISERV/A1.jpg">
+                  <img src="img/ALISERV/A1.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(0, 'carousel13')"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/ALISERV/A2.jpg">
+                  <img src="img/ALISERV/A2.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(1, 'carousel13')"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/ALISERV/A3.jpg">
+                  <img src="img/ALISERV/A3.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(2, 'carousel13')"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/ALISERV/A4.jpg">
+                  <img src="img/ALISERV/A4.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(3, 'carousel13')"></a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel13" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel13" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12" id="GALERIA14">
+            <div id="carousel14" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/SOLARIA/S1.jpg">
+                  <img src="img/SOLARIA/S1.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(0, 'carousel14')"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/SOLARIA/S1.jpg">
+                  <img src="img/SOLARIA/S2.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(1, 'carousel14')"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/SOLARIA/S2.jpg">
+                  <img src="img/SOLARIA/S3.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(2, 'carousel14')"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/SOLARIA/S3.jpg">
+                  <img src="img/SOLARIA/S4.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(3, 'carousel14')"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/SOLARIA/S4.jpg">
+                  <img src="img/SOLARIA/S5.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(4, 'carousel14')"></a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel14" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel14" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12" id="GALERIA15">
+            <div id="carousel15" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="img/PANDATEXTIL/PT1.jpg">
+                  <img src="img/PANDATEXTIL/PT1.jpg" width="1200px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 10px" style="cursor: pointer;" onclick="openModal(0, 'carousel15')"></a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel15" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel15" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
     <div>
 <h3 style="text-align: center; font-weight: bolder; margin-top: 80px; font-size: xxx-large; font-family: 'Poppins', sans-serif;">ILUSTRACIONES, MOCKUPS Y DISEÑOS PARA REDES SOCIALES</h3> 
 
@@ -1956,267 +2380,6 @@
     clientes potenciales y a aumentar tus ventas. Realizo sesiones fotográficas en
     cualquier locación, adaptándome a tus necesidades.
 </p>
-    </div>
-    <div class="row container-fluid d-flex g-1" id="GALERIA4">
-      <div class="col-lg-4 col-md-6 col-sm-12"> 
-        <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/Golf7/G71.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G72.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G73.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G74.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G75.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G76.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G77.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G78.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G79.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G710.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G711.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G712.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G713.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G714.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G715.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G716.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G717.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G718.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G719.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G720.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G721.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G722.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G723.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G724.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G725.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-            <div class="carousel-item">
-              <img src="img/Golf7/G26.jpg" width="500px" height="600px" class="d-block w-100" alt="..." style= "margin-bottom: 20px">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12" id="GALERIA5">
-        <div id="carousel5" class="carousel slide" data-bs-interval="false">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <video src="img/Video/V1.mp4" width="500px" height="600px" class="d-block w-100" controls style= "margin-bottom: 20px">
-                Tu navegador no soporta el elemento de video.
-              </video>
-            </div>
-            <div class="carousel-item">
-              <video src="img/Video/V2.mp4" width="500px" height="600px" class="d-block w-100" controls style= "margin-bottom: 20px">
-                Tu navegador no soporta el elemento de video.
-              </video>
-            </div>
-            <div class="carousel-item">
-              <video src="img/Video/V3.mp4" width="500px" height="600px" class="d-block w-100" controls style= "margin-bottom: 20px">
-                Tu navegador no soporta el elemento de video.
-              </video>
-            </div>
-            <div class="carousel-item">
-              <video src="img/Video/V4.mp4" width="500px" height="600px" class="d-block w-100" controls style= "margin-bottom: 20px">
-                Tu navegador no soporta el elemento de video.
-              </video>
-            </div>
-            <div class="carousel-item">
-              <video src="img/Video/V5.mp4" width="500px" height="600px" class="d-block w-100" controls>
-                Tu navegador no soporta el elemento de video.
-              </video>
-            </div>
-            <div class="carousel-item">
-              <video src="img/Video/V6.mp4" width="500px" height="600px" class="d-block w-100" controls>
-                Tu navegador no soporta el elemento de video.
-              </video>
-            </div>
-            <div class="carousel-item">
-              <video src="img/Video/V7.mp4" width="500px" height="600px" class="d-block w-100" controls>
-                Tu navegador no soporta el elemento de video.
-              </video>
-            </div>
-            <div class="carousel-item">
-              <video src="img/Video/V8.mp4" width="500px" height="600px" class="d-block w-100" controls>
-                Tu navegador no soporta el elemento de video.
-              </video>
-            </div>
-            <div class="carousel-item">
-              <img src="img/Video/V9.gif" width="500px" height="600px" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <video src="img/Video/V10.mp4" width="500px" height="600px" class="d-block w-100" controls>
-                Tu navegador no soporta el elemento de video.
-              </video>
-            </div>
-            <div class="carousel-item">
-              <video src="img/Video/V11.mp4" width="500px" height="600px" class="d-block w-100" controls>
-                Tu navegador no soporta el elemento de video.
-              </video>
-            </div>
-            <div class="carousel-item">
-              <img src="img/Video/V12.gif" width="500px" height="600px" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <video src="img/Video/V13.mp4" width="500px" height="600px" class="d-block w-100" controls>
-                Tu navegador no soporta el elemento de video.
-              </video>
-            </div>
-            <div class="carousel-item">
-              <video src="img/Video/V14.mp4" width="500px" height="600px" class="d-block w-100" controls>
-                Tu navegador no soporta el elemento de video.
-              </video>
-            </div>
-            <div class="carousel-item">
-              <video src="img/Video/V15.mp4" width="500px" height="600px" class="d-block w-100" controls>
-                Tu navegador no soporta el elemento de video.
-              </video>
-            </div>
-            <div class="carousel-item">
-              <video src="img/Video/V16.mp4" width="500px" height="600px" class="d-block w-100" controls>
-                Tu navegador no soporta el elemento de video.
-              </video>
-            </div>
-            <div class="carousel-item">
-              <video src="img/Video/V17.mp4" width="500px" height="600px" class="d-block w-100" controls>
-                Tu navegador no soporta el elemento de video.
-              </video>
-            </div>
-            <div class="carousel-item">
-              <video src="img/Video/V18.mp4" width="500px" height="600px" class="d-block w-100" controls>
-                Tu navegador no soporta el elemento de video.
-              </video>
-            </div>
-            <div class="carousel-item">
-              <video src="img/Video/V19.mp4" width="500px" height="600px" class="d-block w-100" controls>
-                Tu navegador no soporta el elemento de video.
-              </video>
-            </div>
-            <div class="carousel-item">
-              <video src="img/Video/V20.mp4" width="500px" height="600px" class="d-block w-100" controls>
-                Tu navegador no soporta el elemento de video.
-              </video>
-            </div>
-            <div class="carousel-item">
-              <video src="img/Video/V21.mp4" width="500px" height="600px" class="d-block w-100" controls>
-                Tu navegador no soporta el elemento de video.
-              </video>
-            </div>
-            <div class="carousel-item">
-              <img src="img/Video/V22.gif" width="500px" height="600px" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <video src="img/Video/V23.mp4" width="500px" height="600px" class="d-block w-100" controls>
-                Tu navegador no soporta el elemento de video.
-              </video>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-sm-12" id="GALERIA6">
-        <div id="carousel6" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/LoMejorDe/LMD1.jpg" width="500px" height="600px" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="img/LoMejorDe/LMD2.jpg" width="500px" height="600px" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="img/LoMejorDe/LMD3.jpg" width="500px" height="600px" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="img/LoMejorDe/LMD4.jpg" width="500px" height="600px" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="img/LoMejorDe/LMD5.jpg" width="500px" height="600px" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="img/LoMejorDe/LMD6.jpg" width="500px" height="600px" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="img/LoMejorDe/LMD7.jpg" width="500px" height="600px" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="img/LoMejorDe/LMD8.jpg" width="500px" height="600px" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="img/LoMejorDe/LMD9.jpg" width="500px" height="600px" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="img/LoMejorDe/LMD10.jpg" width="500px" height="600px" class="d-block w-100" alt="...">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carousel6" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
     </div>
     <div><h3 style="text-align: center; font-weight: bolder; margin-top: 80px; font-size: xxx-large; font-family: 'Poppins', sans-serif;">FOTOGRAFÍA ARTÍSTICA</h3>
 
@@ -2300,7 +2463,64 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 5%, rgba(143,68,254,0.8631827731
       </div>
   </div>
 </footer>
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+          <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body d-flex justify-content-center align-items-center">
+              <!-- Contenedor para la imagen y flechas -->
+              <button id="prevButton" class="btn btn-light position-absolute start-0" style="z-index: 10;" onclick="changeImage(-1)">&#10094;</button>
+              <img src="" alt="Imagen de alta resolución" class="img-fluid" id="modalImage">
+              <button id="nextButton" class="btn btn-light position-absolute end-0" style="z-index: 10;" onclick="changeImage(1)">&#10095;</button>
+          </div>
+      </div>
+  </div>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  let currentIndex = 0; // Para saber cuál imagen mostrar
+  let images = []; // Lista de imágenes que se mostrarán en el modal
+
+  // Función para abrir el modal y cargar las imágenes correspondientes
+  function openModal(index, carousel1) {
+    currentIndex = index; // Establece el índice actual
+    images = Array.from(document.querySelectorAll(`#${carousel1} .carousel-item img`)).map(img => img.src); // Obtiene todas las imágenes del carrusel
+    document.getElementById("modalImage").src = images[currentIndex]; // Establece la imagen actual en el modal
+    new bootstrap.Modal(document.getElementById('imageModal')).show(); // Muestra el modal
+  }
+
+  // Función para cambiar la imagen en el modal
+  function changeImage(direction) {
+    currentIndex += direction;
+
+    // Asegúrate de que el índice esté dentro del rango
+    if (currentIndex < 0) {
+      currentIndex = images.length - 1; // Si llegamos al principio, ir al final
+    } else if (currentIndex >= images.length) {
+      currentIndex = 0; // Si llegamos al final, ir al principio
+    }
+
+    document.getElementById("modalImage").src = images[currentIndex]; // Actualiza la imagen en el modal
+  }
+</script>
+
+<!-- Estilo CSS para el modal -->
+<style>
+  /* Asegurarse de que la imagen se muestre en su tamaño original */
+  #modalImage {
+    max-width: 100%;   /* La imagen no debe exceder el 100% del ancho del modal */
+    height: auto;      /* Mantener la proporción de la imagen */
+  }
+
+  /* Ajustar el modal para imágenes grandes */
+  .modal-body {
+    max-height: 105vh; /* Limitar la altura al 80% de la pantalla */
+    overflow-y: auto; /* Permite que aparezca una barra de desplazamiento si la imagen es más alta que el modal */
+    position: relative;
+  }
+</style>
 <script>
   const carousel = document.getElementById('carousel5');
 
