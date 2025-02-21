@@ -2467,7 +2467,7 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 5%, rgba(143,68,254,0.8631827731
   <div class="modal-dialog modal-dialog-centered modal-lg">
       <div class="modal-content">
           <div class="modal-header">
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body d-flex justify-content-center align-items-center">
               <!-- Contenedor para la imagen y flechas -->
@@ -2533,7 +2533,15 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 5%, rgba(143,68,254,0.8631827731
     });
   });
 </script>
-  
+<script>
+  document.getElementById('imageModal').addEventListener('hidden.bs.modal', function () {
+    // Eliminar la clase modal-open del body
+    document.body.classList.remove('modal-open');
+    // Asegurarse de que no queden estilos inline que bloqueen el scroll
+    document.body.style.paddingRight = '';
+    document.body.style.overflow = '';
+  });
+</script>
   <style>
   #carousel5 {
     position: relative;
@@ -2547,6 +2555,15 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 5%, rgba(143,68,254,0.8631827731
     z-index: 10;
   }
   </style>
+  <script>
+    document.getElementById('imageModal').addEventListener('hidden.bs.modal', function () {
+      // Asegurarse de que se eliminen restos del fondo opaco
+      const backdrop = document.querySelector('.modal-backdrop');
+      if (backdrop) {
+        backdrop.remove();
+      }
+    });
+  </script>
   <script>
     function copyToClipboard(elementId) {
       const textToCopy = document.getElementById(elementId).innerText;
